@@ -1,0 +1,7 @@
+{
+    "logger": {
+        "fileName": "applogs",
+        "maxSize": 5242880,
+        "maxFiles": 5
+    }
+}

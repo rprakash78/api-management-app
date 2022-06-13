@@ -1,0 +1,29 @@
+{
+    "dev": {
+      "database": "apidev",
+      "userName": "postgres",
+      "password": "root",
+      "host": "localhost",
+      "port": 5432,
+      "options": {
+        "dialect": "postgres",
+        "define": {
+          "timestamps": false
+        },
+        "pool": {
+          "max": 10,
+          "min": 0,
+          "acquire": 30000,
+          "idle": 10000
+        },
+        "dialectOptions": {
+          "multipleStatements": true,
+          "dateStrings": true,
+          "useUTC": false,
+          "typeCast": true
+        },
+        "timezone": "+05:30"
+      }
+    },
+    "prod": {}
+}

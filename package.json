@@ -1,0 +1,22 @@
+{
+  "name": "api-management-app",
+  "version": "1.0.0",
+  "description": "a simple api management appl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prakash R",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "node-cache": "^5.1.2",
+    "pg": "^8.7.3",
+    "sequelize": "^6.20.1",
+    "short-unique-id": "^4.4.4",
+    "winston": "^3.7.2"
+  }
+}
